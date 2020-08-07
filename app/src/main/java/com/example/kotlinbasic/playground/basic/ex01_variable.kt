@@ -40,8 +40,8 @@ fun main() {
 
      //immutable เปลี่ยนค่าไม่ได้
      val val1 = "iBlurBlur" //Implicit
-     val val2 = String = "IBlurBlur"//EXplicit
-     val val3 = String
+     val val2 : String = "IBlurBlur"//EXplicit
+     val val3 : String
      val3="iBlurBlur"//(Explicit)
 
      var any1 : Any
@@ -50,5 +50,5 @@ fun main() {
      any1 = true
     println(CONST_1)
     println(CONST_2)
- //31/7/2020
+
  }
